@@ -37,7 +37,7 @@ def get_text_chunks(text):
 
 def get_vectorstore(text_chunks):
     embeddings = OpenAIEmbeddings()
-    # embeddings = HuggingFaceInferenceAPIEmbeddings(api_key="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", model_name="sentence-transformers/all-MiniLM-l6-v2")
+    # embeddings = HuggingFaceInferenceAPIEmbeddings(api_key= , model_name="sentence-transformers/all-MiniLM-l6-v2")
     vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
     return vectorstore
 
