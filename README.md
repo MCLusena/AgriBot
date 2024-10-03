@@ -4,13 +4,13 @@
 
 ---
 
-Agri Bot is a Retrieval Augmented Generation (RAG) chatbot made with Python that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a large language model (LLM) to generate accurate answers to agriculture related queries. Please note that the chatbot will only respond to questions related to the loaded PDFs.
+AgriBot is a project I did during my internship at the University of Colombo School of Computing (UCSC). AgriBot is a Retrieval Augmented Generation (RAG) chatbot made with Python that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a large language model (LLM) to generate accurate answers to agriculture related queries. Please note that the chatbot will only respond to questions related to the loaded PDFs.
 
 ## Dependencies and Installation
 
 ---
 
-To install Agri Bot, please follow these steps:
+To install AgriBot, please follow these steps:
 
 1. Clone the repository to your local machine.
 
@@ -30,7 +30,7 @@ OPENAI_API_KEY=your_secret_api_key
 
 ---
 
-To use Agri Bot, follow these steps:
+To use AgriBot, follow these steps:
 
 1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
 
